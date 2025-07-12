@@ -1,0 +1,6 @@
+<div class="generic-btn" [ngClass]="field.componentClasses">
+    <button click="onBtnClick()" [ngClass]="[variant, colorTheme]" >
+        <img class="generic-btn__leftImgIcon" *ngIf="field.leftImgSrc" [src]="field.leftImgSrc" [alt]="field.leftImgAlt" />
+        <span class="generic-btn__label">{{field.label}}</span>
+    </button>
+</div>

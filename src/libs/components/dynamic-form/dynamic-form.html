@@ -1,0 +1,11 @@
+<section class="dynamic-form__container">
+    @for (field of fields; track field;) {
+    <ng-container>
+        <div [ngClass]="field.componentClasses">
+            <ng-template appDynamicField [field]="field" [formValue]="formValue" [formGroup]="formGroup"
+                [additionalData]="additionalData">
+            </ng-template>
+        </div>
+    </ng-container>
+    }
+</section>

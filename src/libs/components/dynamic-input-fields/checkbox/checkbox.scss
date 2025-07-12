@@ -1,0 +1,13 @@
+
+.form-check {
+    &-input:checked {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    &-input {
+        border-color: purple;
+        border-width: 1px;
+        border-style: solid;
+    }
+}
